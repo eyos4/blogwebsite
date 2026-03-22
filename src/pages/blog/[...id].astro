@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from 'astro:content'; // 1. 'render' fonksiyonunu ekledik
+import BlogPost from '../../layouts/BlogPost.astro';
+
+export async function getStaticPaths() {
+    const posts = await getCollection('blog');
+    return posts.map((post) => ({
+        params: { id: post.id }, 
+        props: { post }, // 2. 'post' objesini bir paket içinde gönderiyoruz
+    }));
+}
+
+const { post } = Astro.props; // 3. Props'tan post'u çekiyoruz
+const { Content } = await render(post); // 4. post.render() yerine render(post) kullanıyoruz
+---
+
+<BlogPost {...post.data}>
+    <Content />
+</BlogPost>
