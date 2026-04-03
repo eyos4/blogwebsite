@@ -1,0 +1,24 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+// 1. Statik yolları (slug) oluştur
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  
+  return posts.map((post) => ({
+    params: { slug: post.id }, // Yeni loader yapısında genellikle 'id' slug görevini görür
+    props: { post },
+  }));
+}
+
+// 2. Props'tan veriyi al
+const { post } = Astro.props;
+
+// 3. Markdown içeriğini render et
+const { Content } = await render(post);
+---
+
+<BlogPost {...post.data}>
+  <Content />
+</BlogPost>

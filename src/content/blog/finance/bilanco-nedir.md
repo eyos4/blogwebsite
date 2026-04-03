@@ -1,8 +1,9 @@
 ---
 title: 'Bilanço Nedir'
+slug: 'bilanco-nedir'
 description: 'bilançonun açıklaması ve özellikleri'
 pubDate: 'March 22 2026'
-heroImage: '../../assets/bilanco.png'
+heroImage: '../../../assets/bilanco.png'
 category: "finance"
 ---
 

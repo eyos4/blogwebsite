@@ -1,8 +1,9 @@
 ---
 title: 'İlgi Alanları ve Aktiviteler'
+slug: 'ilgi-alanlari-ve-aktiviteler'
 description: 'Hobi sayfasının açıklaması'
 pubDate: 'March 22 2026'
-heroImage: '../../assets/hobiicinilkpost.png'
+heroImage: '../../../assets/hobiicinilkpost.png'
 category: "hobby"
 ---
 Teknoloji ve finans odaklı profesyonel hayatımı, disiplin ve merak ekseninde gelişen çeşitli hobilerle dengeliyorum. Bu aktiviteler, analitik bakış açımı genişleten ve farklı disiplinleri tanımamı sağlayan birer gelişim aracıdır.

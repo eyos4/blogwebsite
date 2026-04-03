@@ -1,8 +1,9 @@
 ---
 title: 'Yazılım, Siber Güvenlik ve Teknoloji'
+slug: 'yazilim-siber-güvenlik-ve-teknoloji'
 description: 'yazılım sayfasının açıklaması'
 pubDate: 'March 22 2026'
-heroImage: '../../assets/yazılımicinilkpostungorseli.png'
+heroImage: '../../../assets/yazılımicinilkpostungorseli.png'
 category: "software"
 ---
 

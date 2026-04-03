@@ -1,8 +1,9 @@
 ---
 title: "Finans: Analiz, Strateji ve Finansal Veri Yönetimi"
+slug: 'finans-analiz-strateji-ve-finansal-veri-yonetimi'
 description: "Finansın ilk yazısı"
 pubDate: 'March 22 2026'
-heroImage: '../../assets/finansilkpost.png'
+heroImage: '../../../assets/finansilkpost.png'
 category: "finance"
 ---
 Bu bölüm; muhasebe disiplini, bilanço analizi ve küresel piyasaların dinamikleri üzerine kurulu, analitik bir veri havuzudur. İçerikler, rasyonel finansal modelleme ve finansal okuryazarlık ilkeleri doğrultusunda hazırlanmış olup, spekülatif yorumlardan arındırılmış teknik bir perspektif sunmaktadır.
